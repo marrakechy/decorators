@@ -16,7 +16,9 @@ def convert(func):
 def return_something(value):
     return value
 
-result = return_something(839.2)
+resultA = return_something(839.2)
+resultB = return_something(7)
+resultC = return_something("BRAHIM")
 
 print(result)
 
