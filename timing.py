@@ -12,8 +12,3 @@ def timing(func):
 
     return wrapper
 
-    @timing
-    def random():
-        time.sleep(20)
-
-    random()
