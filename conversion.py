@@ -12,4 +12,10 @@ def convert(func):
                 raise ValueError("Cannot convert the result to an integer or flaot number")
     return wrapper
 
+@convert
+def return_something(value):
+    return value
 
+result = return_something(839.2)
+
+print(result)
