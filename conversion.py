@@ -19,3 +19,6 @@ def return_something(value):
 result = return_something(839.2)
 
 print(result)
+
+
+#Im stuck on this, does not work, I tried the consol too
